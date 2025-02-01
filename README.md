@@ -5,5 +5,17 @@ I began learning about GitOps through Mischa van den Burg's Homelab course in th
 
 This repository showcases everything I have learned from the course.
 
+## What is running ?
+
+Inside this cluster we have for now only one application running called Linkding.
+[Linkding](https://github.com/sissbruecker/linkding)  is a selfhost bookmark manager.
+
+It's really easy to setup and so it's create to use as an application for my experimentations.
+
 ## TODO
-- Add devcontainer config
+
+- [] Add devcontainer config
+- [X] Add Persistent storage to Linkding
+- [] Make sure the container runs as non root
+- [] Expose Linkding to Internet
+- [] Add SSL Certificates to allow https

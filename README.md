@@ -16,6 +16,6 @@ It's really easy to setup and so it's create to use as an application for my exp
 
 - [] Add devcontainer config
 - [X] Add Persistent storage to Linkding
-- [] Make sure the container runs as non root
+- [X] Make sure the container runs as non root & disable privilege escalation
 - [] Expose Linkding to Internet
 - [] Add SSL Certificates to allow https

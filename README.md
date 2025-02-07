@@ -26,5 +26,5 @@ It's really easy to setup and so it's create to use as an application for my exp
 - [X] Expose Linkding to Internet
   - [X] Setup a Cloudflare Tunnels & a linkding service
   - [ ] Configure Traefik Ingress
-- [ ] Add SOPS to protect secret
+- [X] Add SOPS to protect secret
 - [ ] Add SSL Certificates to allow https

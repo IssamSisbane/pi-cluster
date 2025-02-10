@@ -26,5 +26,16 @@ spec:
         target:
           kind: PrometheusRule
   values:
-    grafana:
+     grafana:
       adminPassword: issam
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+
+        hosts:
+          - grafana.homelab.net
+
+        tls:
+          - secretName: grafana-tls-secret
+            hosts:
+              - grafana.homelab.net

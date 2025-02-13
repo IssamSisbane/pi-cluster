@@ -17,6 +17,7 @@ It's really easy to setup and so it's create to use as an application for my exp
 - K3S : Kubernetes Distribution
 - Cloudflare Tunnels (cloudflared) : To expose our homelab to Internet
 - SOPS : To managing safely secrets
+- Traefik : Ingress to expose the services
 
 ## TODO
 
@@ -25,6 +26,7 @@ It's really easy to setup and so it's create to use as an application for my exp
 - [X] Make sure the container runs as non root & disable privilege escalation
 - [X] Expose Linkding to Internet
   - [X] Setup a Cloudflare Tunnels & a linkding service
-  - [ ] Configure Traefik Ingress
+  - [X] Configure Traefik Ingress
 - [X] Add SOPS to protect secret
-- [ ] Add SSL Certificates to allow https
+- [X] Add SSL Certificates to allow https
+- [ ] Add Access to the ingress from outside

@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: audiobookshelf
+  name: audiobookshelf
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: audiobookshelf
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: audiobookshelf
+    spec:
+      containers:
+      - image: test:latest
+        name: test
+        resources: {}
+status: {}
